@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  movePoint: {fileID: 0}
+  movePoint: {fileID: 1741009858}
 --- !u!1 &1491093599
 GameObject:
   m_ObjectHideFlags: 0
