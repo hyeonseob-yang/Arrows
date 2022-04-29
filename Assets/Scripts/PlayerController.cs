@@ -23,12 +23,12 @@ public class PlayerController : MonoBehaviour
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
             {
 
-                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal")/10, 0f, 0f);
             }
             else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
             {
 
-                movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical")/10, 0f);
             }
 
         }
